@@ -12,7 +12,7 @@ Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL S
 * AULA 9 - [José Fernando ZARAGOZA.](https://github.com/JoseZaragoza7) - pp7cdm@gmail.com
 * AULA 13 - [Martín Sebastian ENRIQUEZ.](https://github.com/MartinDeMarc) - martin.enriquez.seb@gmail.com
 * AULA 14 - [Hugo Gabriel LESCANO TORNIER.](https://github.com/Gabrieltornier) - gabo96t@gmail.com
-* AULA 3 - [Pablo Jeremías Novillo.](https://github.com/PNovillo) - evandefpablo@gmail.com
+* AULA 3 - [Pablo Jeremías NOVILLO.](https://github.com/PNovillo) - evandefpablo@gmail.com
 
 
 ### Proyecto 1: Gespac (Gestión Pacientes.)
