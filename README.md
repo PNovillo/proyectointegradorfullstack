@@ -15,7 +15,7 @@ Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL S
 * AULA 3 - [Pablo Jeremías NOVILLO.](https://github.com/PNovillo) - evandefpablo@gmail.com
 
 
-### Proyecto 1: Gespac (Gestión Pacientes.)
+### Proyecto 1: SmartLab (Gestión Pacientes.)
 ### Ambito de aplicación: laboratorio/hospital.
 
 #### Breve descripción del proyecto
