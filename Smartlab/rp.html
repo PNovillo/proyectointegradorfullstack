@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartlab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <img class="img" src="/Smartlab/img/Logosinfondo.png" alt="">
+    <h1>Registro de pacientes</h1>
+    <form class="form-registrer" action="https://formsubmit.co/smartlab.gitgoodteam@gmail.com" method="POST">
+      <h3>Datos del paciente</h3>
+      <label for="name">Nombre Completo:</label>
+      <input class="controls" type="text" name="Nombre Completo" placeholder="Como figura en documento" id="name"
+        required>
+      <label for="dni">DNI:</label>
+      <input class="controls" type="text" name="DNI" placeholder="Escribe el DNI" id="dni" maxlength="8" required>
+      <br>
+      <label for="edad">Edad:</label>
+      <input class="controls" type="number" name="Edad" placeholder="Escribe la edad" id="edad" required>
+      <br>
+      <input class="control" type="radio" name="Sexo" id="radio-f" value="Femenino">
+      <label for="radio-f">Femenino</label>
+      <input class="control" type="radio" name="Sexo" id="radio-m" value="Masculino">
+      <label for="radio-m">Masculino</label>
+      <br>
+      <label for="cel">Celular:</label>
+      <input class="controls" type="tel" name="Celular" id="cel" placeholder="Sin 0 y sin 15 ej:3513800000">
+      <label for="email">Email:</label>
+      <input class="controls" type="email" name="E-mail" id="email" placeholder="example@mail.com">
+      <br>
+      <h3>Domicilio del paciente</h3>
+      <label for="calle">Calle:</label>
+      <input class="controls" type="text" name="Calle" id="calle" placeholder="Nombre de la calle" required>
+      <label for="n">N°:</label>
+      <input class="controls" type="number" name="Numero Domicilio" id="n" placeholder="n° de domicilio">
+      <br>
+      <label for="barr">Barrio:</label>
+      <input class="controls" type="text" name="Barrio" id="barr" placeholder="Nombre del barrio" required>
+      <br>
+      <label for="loc">Localidad:</label>
+      <input class="controls" type="text" name="Localidad" id="loc" placeholder="Nombre de la localidad" required>
+      <label for="prov">Provincia:</label>
+      <input class="controls" type="text" name="Provincia" id="prov" placeholder="Nombre de la provincia" required>
+      <br>
+      <h3>Turno</h3>
+      <label for="radio-os">Tiene Obra Social: Si</label>
+      <input class="control" type="radio" name="Obra Social" id="radio-os" value="Si">
+      <label for="radio-noos">No</label>
+      <input class="control" type="radio" name="Obra Social" id="radio-noos" value="No">
+      <br>
+      <label for="fyh">Fecha y hora:</label>
+      <input class="controls" type="datetime-local" name="Fecha y Hora" id="fyh">
+      <br>
+      <label for="prioridad">Prioridad:</label>
+      <select class="controls" name="Priodidad" id="prioridad">
+        <option value="" selected>Elige una opción:</option>
+        <option value="Urgencia">Urgencia</option>
+        <option value="Consulta">Consulta</option>
+      </select>
+      <br>
+      <label for="namecode">Nombre y codigo de Prestacion:</label>
+      <br>
+      <select class="selectm" multiple name="Nombre y Codigo de Prestacion" id="namecode" size="10">
+        <option value="" selected>Elige una o varias opciones(puede seleccecionar varias manteniendo Ctrl)
+        </option>
+        <option value="17 Hidroxiprogesterona-L001">17 Hidroxiprogesterona-L001</option>
+        <option value="Ácido Urico-L002">Ácido Urico-L002</option>
+        <option value="Ácidos biliares-L003">Ácidos biliares-L003</option>
+        <option value="Amilasa pancreática-L004">Amilasa pancreática-L004</option>
+        <option value="Antibiograma micobacterias-L005">Antibiograma micobacterias-L005</option>
+        <option value="Anticuerpos antitreponémicos-L006">Anticuerpos antitreponémicos-L006</option>
+        <option value="Apolipoptroteina B-L008">Apolipoptroteina B-L008</option>
+        <option value="ASTO-L009">ASTO-L009</option>
+        <option value="Baciloscopía-L010">Baciloscopía-L010</option>
+        <option value="Bacteriología directa y cultivo-L011">Bacteriología directa y cultivo-L011</option>
+        <option value="Bilirrubinas totales y fraccionadas-L012">Bilirrubinas totales y fraccionadas-L012</option>
+        <option value="Biotinidasa neonatal-L013">Biotinidasa neonatal-L013</option>
+        <option value="Calcemia-L014">Calcemia-L014</option>
+        <option value="Calciuria-L015">Calciuria-L015</option>
+        <option value="Citología-L017">Citología-L017</option>
+        <option value="Colesterol-L018">Colesterol-L018</option>
+        <option value="Coprocultivo-L019">Coprocultivo-L019</option>
+        <option value="CPK-L020">CPK-L020</option>
+        <option value="Creatinina en orina-L021">Creatinina en orina-L021</option>
+        <option value="Creatinina sérica-L022">Creatinina sérica-L022</option>
+        <option value="Cuantificación fibrinogeno-L023">Cuantificación fibrinogeno-L023</option>
+        <option value="Cultivo Streptococo B hemolítico-L024">Cultivo Streptococo B hemolítico-L024</option>
+        <option value="Cultivo vaginal Exudado flujo-L025">Cultivo vaginal Exudado flujo-L025</option>
+        <option value="Cultivo y Antibiograma General-L026">Cultivo y Antibiograma General-L026</option>
+        <option value="Electroforesis de proteínas-L027">Electroforesis de proteínas-L027</option>
+        <option value="Eritrosedimentación-L028">Eritrosedimentación-L028</option>
+        <option value="Esputo seriado-L029">Esputo seriado-L029</option>
+        <option value="Estado ácido base-L030">Estado ácido base-L030</option>
+        <option value="Estudio Citoquímico de Médula Ósea: PAS- Peroxidasa- Esterasas-L03">Estudio Citoquímico de Médula
+          Ósea: PAS- Peroxidasa- Esterasas-L031</option>
+        <option value="Estudio Citogenético de Médula Ósea (técnica de bandeo G)-L032">Estudio Citogenético de Médula
+          Ósea (técnica de bandeo G)-L032</option>
+        <option value="Estudio de Genética Molecular de Médula Ósea(BCR/ABL,
+          MLL/AF4 y TEL/AML1 técnica RT-PCR o FISH)-L033">Estudio de Genética Molecular de Médula Ósea(BCR/ABL,
+          MLL/AF4 y TEL/AML1 técnica RT-PCR o FISH)-L033</option>
+        <option value="Factor de coagulación 5, 7, 8, 9 y 10-L034">Factor de coagulación 5, 7, 8, 9 y 10-L034</option>
+        <option value="Fenilalanina-L035">Fenilalanina-L035</option>
+        <option value="Fenilcetonuria-L036">Fenilcetonuria-L036</option>
+        <option value="Ferremia-L037">Ferremia-L037</option>
+        <option value="Ferritina-L038">Ferritina-L038</option>
+        <option value="Fosfatasa alcalina-L040">Fosfatasa alcalina-L040</option>
+        <option value="Fosfatemia-L041">Fosfatemia-L041</option>
+        <option value="FSH-L042">FSH-L042</option>
+        <option value="Galactosemia-L043">Galactosemia-L043</option>
+        <option value="Gamma - GT (gamma glutamil transpeptidasa)-L044">Gamma - GT (gamma glutamil transpeptidasa)-L044
+        </option>
+        <option value="Glucemia-L045">Glucemia-L045</option>
+        <option value="Glucosuria-L046">Glucosuria-L046</option>
+        <option value="Gonadotrofina coriónica humana en sangre-L047">Gonadotrofina coriónica humana en sangre-L047
+        </option>
+        <option value="Gonadotrofina coriónica humana en orina-L048">Gonadotrofina coriónica humana en orina-L048
+        </option>
+        <option value="Grasas en material fecal cualitativa-L049">Grasas en material fecal cualitativa-L049</option>
+        <option value="Grupo y factor-L050">Grupo y factor-L050</option>
+        <option value="Hbs Ag-L051">Hbs Ag-L051</option>
+        <option value="HDL y LDL-L052">HDL y LDL-L052</option>
+        <option value="Hematocrito-L053">Hematocrito-L053</option>
+        <option value="Hemocultivo-L054">Hemocultivo-L054</option>
+        <option value="Hemoglobina-L055">Hemoglobina-L055</option>
+        <option value="Hemoglobina glicosilada-L056">Hemoglobina glicosilada-L056</option>
+        <option value="Hemograma completo-L057">Hemograma completo-L057</option>
+        <option value="Hepatitis B anti HBS-L058">Hepatitis B anti HBS-L058</option>
+        <option value="Hepatograma-L059">Hepatograma-L059</option>
+        <option value="Hidatidosis por hemoaglutinación-L060">Hidatidosis por hemoaglutinación-L060</option>
+        <option value="Hidatidosis por IFI-L061">Hidatidosis por IFI-L061</option>
+        <option value="Hisopado de fauces-L062">Hisopado de fauces-L062</option>
+        <option value="Homocistína-L063">Homocistína-L063</option>
+        <option value="IFI Infecciones respiratorias-L064">IFI Infecciones respiratorias-L064</option>
+        <option value="IFI y Hemoaglutinación Directa para Chagas-L065">IFI y Hemoaglutinación Directa para Chagas-L065
+        </option>
+        <option value="Insulina en sangre-L066">Insulina en sangre-L066</option>
+        <option value="Inmunofenotipo de Médula Ósea por citometría de flujo-L067">Inmunofenotipo de Médula Ósea por
+          citometría de flujo-L067</option>
+        <option value="Ionograma plasmático y orina-L068">Ionograma plasmático y orina-L068</option>
+        <option value="KPTT-L069">KPTT-L069</option>
+        <option value="LDH-L070">LDH-L070</option>
+        <option value="Leucocitos en material fecal-L071">Leucocitos en material fecal-L071</option>
+        <option value="LH-L072">LH-L072</option>
+        <option value="Lipidograma Electroforético-L073">Lipidograma Electroforético-L073</option>
+        <option value="Líquido cefalorraquídeo citoquímico y bacteriológico-L074">Líquido cefalorraquídeo citoquímico y
+          bacteriológico-L074</option>
+        <option value="Líquido cefalorraquídeo - Recuento celular(cámara),
+          Citología(MGG, cytospin ) e histoquímica-L075">Líquido cefalorraquídeo - Recuento celular(cámara),
+          Citología(MGG, cytospin ) e histoquímica-L075</option>
+        <option value="Micológico-L076">Micológico-L076</option>
+        <option value="Anticuerpos para mononucleosis-L078">Anticuerpos para mononucleosis-L078</option>
+        <option value="Orina Completa-L079">Orina Completa-L079</option>
+        <option value="Parasitemia para Chagas-L080">Parasitemia para Chagas-L080</option>
+        <option value="Parasitológico de Materia Fecal-L081">Parasitológico de Materia Fecal-L081</option>
+        <option value="PH en materia fecal-L082">PH en materia fecal-L082</option>
+        <option value="Porcentaje de saturación de hierro funcional-L083">Porcentaje de saturación de hierro
+          funcional-L083</option>
+        <option value="PPD-L084">PPD-L084</option>
+        <option value="Productos de degradación del fibrinogeno (PDF)-L085">Productos de degradación del fibrinogeno
+          (PDF)-L085</option>
+        <option value="Progesterona-L086">Progesterona-L086</option>
+        <option value="Prolactina-L087">Prolactina-L087</option>
+        <option value="Proteína C Reactiva-L088">Proteína C Reactiva-L088</option>
+        <option value="Proteínas totales y fraccionadas-L089">Proteínas totales y fraccionadas-L089</option>
+        <option value="Proteinuria-L090">Proteinuria-L090</option>
+        <option value="Protoporfirina libre eritrocitaria-L091">Protoporfirina libre eritrocitaria-L091</option>
+        <option value="Prueba de Coombs Directa-L092">Prueba de Coombs Directa-L092</option>
+        <option value="Prueba de Coombs indirecta-L093">Prueba de Coombs indirecta-L093</option>
+        <option value="Prueba de tolerancia a la glucosa-L094">Prueba de tolerancia a la glucosa-L094</option>
+        <option value="Anticuerpos para brucelosis-L095">Anticuerpos para brucelosis-L095</option>
+        <option value="Anticuerpos para Salmonelosis-L096">Anticuerpos para Salmonelosis-L096</option>
+        <option value="Receptores libres de transferrina-L097">Receptores libres de transferrina-L097</option>
+        <option value="Test inmunoquímico de sangre oculta en materia fecal (TiSOMF)-L098">Test inmunoquímico de sangre
+          oculta en materia fecal (TiSOMF)-L098</option>
+        <option value="Serología para Chagas (Elisa)-L099">Serología para Chagas (Elisa)-L099</option>
+        <option value="Serología para Hepatitis A Ig M-L100">Serología para Hepatitis A Ig M-L100</option>
+        <option value="Serología para Hepatitis A total-L101">Serología para Hepatitis A total-L101</option>
+        <option value="Serología para Rubeola Ig M-L012">Serología para Rubeola Ig M-L012</option>
+        <option value="Sideremia-L103">Sideremia-L103</option>
+        <option value="T3-L104">T3-L104</option>
+        <option value="T4 libre-L105">T4 libre-L105</option>
+        <option value="Búsqueda de Oxiurus-L106">Búsqueda de Oxiurus-L106</option>
+        <option value="Test de latex-L107">Test de latex-L107</option>
+        <option value="TIBC-L108">TIBC-L108</option>
+        <option value="Tiempo de lisis de euglobulina-L109">Tiempo de lisis de euglobulina-L109</option>
+        <option value="Toxoplasmosis IgG-L110">Toxoplasmosis IgG-L110</option>
+        <option value="Toxoplasmosis IgM-L111">Toxoplasmosis IgM-L111</option>
+        <option value="Transaminasas TGO/TGP-L112">Transaminasas TGO/TGP-L112</option>
+        <option value="Transferrinas-L113">Transferrinas-L113</option>
+        <option value="Triglicéridos-L114">Triglicéridos-L114</option>
+        <option value="Tripsina catiónica inmunorreactiva-L115">Tripsina catiónica inmunorreactiva-L115</option>
+        <option value="TSH-L116">TSH-L116</option>
+        <option value="Urea-L117">Urea-L117</option>
+        <option value="Urocultivo-L118">Urocultivo-L118</option>
+        <option value="VDRL-L119">VDRL-L119</option>
+        <option value="Vibrio Cholerae Cultivo e Identificación-L120">Vibrio Cholerae Cultivo e Identificación-L120
+        </option>
+        <option value="VIH Elisa-L121">VIH Elisa-L121</option>
+        <option value="VIH WESTERN BLOT-L122">VIH WESTERN BLOT-L122</option>
+        <option value="Serología para Hepatitis C-L123">Serología para Hepatitis C-L123</option>
+        <option value="Magnesemia-L124">Magnesemia-L124</option>
+        <option value="Serología LCR-L125">Serología LCR-L125</option>
+        <option value="Recuento plaquetas-L126">Recuento plaquetas-L126</option>
+        <option value="Antígeno P24-L127">Antígeno P24-L127</option>
+        <option value="Hemoaglutinación indirecta Chagas-L128">Hemoaglutinación indirecta Chagas-L128</option>
+        <option value="IgE sérica-L129">IgE sérica-L129</option>
+        <option value="Tiempo de coagulación y sangría-L130">Tiempo de coagulación y sangría-L130</option>
+        <option value="Tiempo de protrombina-L131">Tiempo de protrombina-L131</option>
+        <option value="Tiempo de trombina-L132">Tiempo de trombina-L132</option>
+        <option value="Frotis de sangre periférica-L133">Frotis de sangre periférica-L133</option>
+        <option value="Recuento reticulocitario-L134">Recuento reticulocitario-L134</option>
+        <option value="Fructosamina-L135">Fructosamina-L135</option>
+        <option value="Cariotipo con bandas G-L136">Cariotipo con bandas G-L136</option>
+        <option value="Albuminuria-L137">Albuminuria-L137</option>
+        <option value="Proteinuria 24 hs-L138">Proteinuria 24 hs-L138</option>
+        <option value="Albuminuria 24 hs-L139">Albuminuria 24 hs-L139</option>
+        <option value="Índice de filtrado glomerular estimado (IFGe) por fórmula MDRD 4-L140">Índice de filtrado
+          glomerular estimado (IFGe) por fórmula MDRD 4-L140</option>
+        <option value="Test rápido VIH-L141">Test rápido VIH-L141</option>
+        <option value="Test rápido sífilis-L142">Test rápido sífilis-L142</option>
+        <option value="Test rápido para virus B-L143">Test rápido para virus B-L143</option>
+        <option value="Test rápido para hepatitis C-L144">Test rápido para hepatitis C-L144</option>
+        <option value="Carga viral VIH-L145">Carga viral VIH-L145</option>
+        <option value="Carga viral HBV-L146">Carga viral HBV-L146</option>
+        <option value="Hepatitis B anticore total-L148">Hepatitis B anticore total-L148</option>
+      </select>
+      <br><br>
+      <input class="botons" type="submit">
+      <input class="botons" type="reset">
+    </form>
+  </div>
+</body>
+
+</html>
