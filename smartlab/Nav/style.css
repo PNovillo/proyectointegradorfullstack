@@ -1,0 +1,65 @@
+header {
+    background-color: #3414a7;
+ }
+
+nav li {                          /*con esto posiciono la nav*/
+    display: inline;
+    margin: 0 0 0 0px;
+   }
+
+
+nav a {
+    text-transform: uppercase;    
+    color: #1e14a7;                     
+    font-weight: bold;
+    font-size: 20px;     /*aca modificas el tamaño de las letras de la nav*/
+    text-decoration: none;
+   }
+ 
+ 
+/*se agrega a partir de aqui lo que proporciono la desarrolladora Mel*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    background-color: aquamarine;
+  }
+  
+ 
+  
+  
+ 
+
+  /*footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+*/
+
+
+
+
+
+  
+/*
+   footer {
+    text-align: center;
+    background: url(practica\ de\ imagen.webp);
+    padding: 40px;
+}
+
+.copyright {
+    color: #1d1717;
+    font-size: 13px;
+    margin: 20px;
+}*/
