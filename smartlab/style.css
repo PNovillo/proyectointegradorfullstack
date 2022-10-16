@@ -6,7 +6,9 @@
 html {
   background-color: aquamarine;
 }
-
+body {
+  background-color: aquamarine;
+}
 .container {
   width: 800px;
   padding: 30px;
@@ -14,7 +16,7 @@ html {
   margin-top: 100px;
   margin-bottom: 50px;
   background-color: white;
-  font-family: "calibri";
+  font-family: "Calibri";
   border-radius: 30px;
 }
 @media only screen and (max-width: 700px) {
@@ -63,7 +65,7 @@ html {
   border-radius: 10px;
   margin-bottom: 16px;
   border: 2px solid #48c4b2;
-  font-family: "calibri";
+  font-family: "Calibri";
   font-size: 18px;
 }
 
@@ -74,7 +76,7 @@ html {
   border-radius: 10px;
   margin-bottom: 16px;
   border: 2px solid #48c4b2;
-  font-family: "calibri";
+  font-family: "Calibri";
   font-size: 18px;
 }
 
@@ -85,7 +87,7 @@ html {
   border-radius: 10px;
   margin-bottom: 16px;
   border: 2px solid #48c4b2;
-  font-family: "calibri";
+  font-family: "Calibri";
   font-size: 16px;
 }
 
@@ -98,4 +100,19 @@ html {
   color: white;
   margin: 16px 0;
   font-size: 16px;
+}
+
+nav li {
+  /*con esto posiciono la nav*/
+  display: inline;
+  margin: 0 0 0 0px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #1e14a7;
+  font-weight: bold;
+  font-size: 20px; /*aca modificas el tamaño de las letras de la nav*/
+  text-decoration: none;
+  font-family: "Calibri";
 }
