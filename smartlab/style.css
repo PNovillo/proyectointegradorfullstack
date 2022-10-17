@@ -8,6 +8,9 @@ html {
 }
 
 .container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
   width: 800px;
   padding: 30px;
   margin: auto;
@@ -19,11 +22,8 @@ html {
 }
 
 .img {
-  display: block;
-  width: 60%;
-  margin: auto;
-  margin-block-end: -80px;
-  margin-top: -110px;
+  width: 5em;
+  height: 5em;
 }
 
 .container h1 {
@@ -69,9 +69,10 @@ html {
   font-size: 16px;
 }
 
-.container .botons {
-  width: 100%;
-  background: #53aecc;
+.controls .container .boton {
+  height: 10em;
+  width: 10em;
+  background: white;
   border: none;
   border-radius: 10px;
   padding: 12px;
@@ -83,4 +84,30 @@ html {
 h1 {
   text-align: center;
   font-family:"calibri"
+}
+
+.container1 {
+  margin: 3%;
+  text-align: center;
+}
+
+.imglab {
+  height: 15em;
+  width: 15em;
+}
+
+.form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
 }
