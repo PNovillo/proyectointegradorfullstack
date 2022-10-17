@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  background-color: aquamarine;
-}
+
 body {
   background-color: aquamarine;
 }
@@ -109,10 +107,106 @@ nav li {
 }
 
 nav a {
-  text-transform: uppercase;
   color: #1e14a7;
   font-weight: bold;
   font-size: 20px; /*aca modificas el tamaño de las letras de la nav*/
   text-decoration: none;
   font-family: "Calibri";
+}
+/* codigo Martin*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #23242b;
+  color: #fff;
+}
+.u-name {
+  font-size: 20px;
+  padding-left: 17px;
+}
+.u-name b {
+  color: #127b8e;
+}
+.header i {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+.header i:hover {
+  color: #127b8e;
+}
+.user-p {
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+.user-p img {
+  width: 180px;
+  border-radius: 5%;
+}
+
+.side-bar {
+  width: 300px;
+  background: aquamarine;
+  min-height: 100vh;
+  transition: 500ms width;
+}
+.body {
+  display: flex;
+}
+.section-1 {
+  width: 100%;
+  background: url("../assets/WhatsApp\ Image\ 2022-10-17\ at\ 01.12.47.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-1 h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.section-1 p {
+  color: #127b8e;
+  font-size: 20px;
+  background: #fff;
+  padding: 7px;
+  border-radius: 5px;
+}
+.side-bar ul {
+  margin-top: 20px;
+  list-style: none;
+}
+.side-bar ul li {
+  font-size: 16px;
+  padding: 15px 15px;
+  padding-left: 0rem;
+  transition: 500ms;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+  background: #127b8e;
+}
+.side-bar ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.side-bar ul li a i {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 23px;
 }
