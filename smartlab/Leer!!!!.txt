@@ -1,0 +1,32 @@
+
+CARPETA smartlab
+----------------
+
+
+ARCHIVOS HTML:
+TODO ARCHIVO terminado en ".html" será ubicados directamente dentro de la carpeta de smartlab.
+NO GUARDARLOS EN NINGUNA SUB-CARPETA.
+De esta manera hacemos mas sencilla la vista de todas las rutas, y el acceso a los mismos.
+Poner el nombre del documento html que te corresponda trabajar:
+"Si tengo que hacer la pagina de CONTACTO, el nombre de mi archivo será contacto.html"
+
+CARPETA CSS: 
+TODO ARCHIVO terminado en ".css". 
+SOLAMENTE habrá un archivo llamado "style.css", el cuál es el que tiene los estilos fijos determinados
+por el equipo de diseño.
+Los estilos proipios que use cada integrante en sus documentos html deberán tener nombres que hagan 
+referencia al trabajo al que le estan dando estilo. (POR EJEMPLO: Si yo trabajo en la parte "sobre nosotros",
+mi archivo html se llamará "sobre-nosotros.html" y tendre vinculados diferentes estilos, por ejemplo, uno para bootstrap,
+otro con los estilos pre-establecidos por el equipo de diseño "style.css", y el estilo propio con las clases que uno
+mismo va creando "sobre-nosotros.css"
+Crear SIEMPRE clases e id propias evitando usar nombres genericos, 
+para que ningun estilo entre en posible conflicto con los del resto del equipo 
+cuando vinculamos diferentes archivos de estilo.
+
+
+CARPETA ASSETS:
+TODAS LAS IMAGENES van ubicadas en esta carpeta: ".jpg", ".png", ".gif", etc.
+Tambien se pueden guardar videos, o demas tipos de archivos graficos/visuales.
+
+CARPETA js:
+TODO ARCHIVO terminado en ".js".
