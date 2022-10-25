@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: arial,sans-serif;
+    font-family: Calibri;
     }
     .user-p {
     text-align: center;
@@ -33,13 +33,13 @@
     }
     .section-1 h1 {
     color: #127b8e;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Calibri;
     font-size: 60px;
     }
     .section-1 p {
     color: #127b8e;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Calibri;
     background: aquamarine;
     padding: 7px;
     border-radius: 15px;
