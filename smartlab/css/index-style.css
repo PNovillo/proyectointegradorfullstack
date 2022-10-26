@@ -20,7 +20,7 @@ img {
 .center {
   display: flex;
   justify-content:center;
-  background-color: aliceblue;
+  background-color: aquamarine;
   padding: 20px;
   height: 100vh;
 }
@@ -35,6 +35,7 @@ a :hover{
   color: azure;
   background-color: antiquewhite;
 }
+
 .container {
   width: 800px;
   padding: 30px;
