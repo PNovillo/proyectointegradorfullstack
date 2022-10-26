@@ -14,12 +14,21 @@ html {
   margin-block-end: 50px;
 background-color: white-space ;
 }
-
+img {
+  border: 3px dashed tomato; 
+}
+.center {
+  display: flex;
+  justify-content:center;
+  background-color: aliceblue;
+  padding: 20px;
+  height: 100vh;
+}
 a {
   color: black;
 }
 a:active {
-  color: aqua;
+  color: royalblue;
   font-size: 1.5em;
 }
 a :hover{
