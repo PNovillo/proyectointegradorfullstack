@@ -6,7 +6,22 @@
 html {
   background-color: aquamarine;
 }
+. <link> {
+background-color: white-space ;
+}
 
+
+a {
+  color: black;
+}
+a:active {
+  color: aqua;
+  font-size: 1.5em;
+}
+a :hover{
+  color: azure;
+  background-color: antiquewhite;
+}
 .container {
   width: 800px;
   padding: 30px;
