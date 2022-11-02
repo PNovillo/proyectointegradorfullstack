@@ -4,6 +4,20 @@
     box-sizing: border-box;
     }
 
+    body {
+        background-color: aquamarine;
+}
+
 .btn btn {
     background: aquamarine;
+    
+}
+
+.btn {
+    font-size: 20px; /*aca modificas el tamaño de las letras de la nav*/
+    color: #1e14a7;
+    font-family: "Calibri";
+    text-transform: uppercase;                    
+    font-weight: bold;    
+    text-decoration: none;
 }
