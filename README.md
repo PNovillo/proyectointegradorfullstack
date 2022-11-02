@@ -21,14 +21,3 @@ Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL S
 
 #### Breve descripción del proyecto
 
-Sistema de ingreso de datos de pacientes, con el tipo de estudio a realizar,
-carga de resultados y la expedición de los mismos mediante whatsapp/email.
-
-### Proyecto 2: PetCare
-
-### Ambito de aplicacion: sociedad en general
-
-#### Breve descripción del proyecto
-
-Gestor de servicios para mascotas (búsqueda y ofrecimiento de veterinaria, voluntariado,
-adopciones, guarderías, etc.) Información de locaciones para mascotas ubicadas en la provincia.
