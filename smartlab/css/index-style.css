@@ -6,6 +6,35 @@
 html {
   background-color: aquamarine;
 }
+.container {
+  width: 800px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-block-end: 50px;
+background-color: white-space ;
+}
+img {
+  border: 3px dashed tomato; 
+}
+.center {
+  display: flex;
+  justify-content:center;
+  background-color: aquamarine;
+  padding: 20px;
+  height: 100vh;
+}
+a {
+  color: black;
+}
+a:active {
+  color: royalblue;
+  font-size: 1.5em;
+}
+a :hover{
+  color: azure;
+  background-color: antiquewhite;
+}
 
 .container {
   width: 800px;
