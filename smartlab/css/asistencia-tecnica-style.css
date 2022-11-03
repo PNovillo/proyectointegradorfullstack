@@ -21,7 +21,7 @@ html {
   border-radius: 30px;
 }
 
-.img {
+.img-whatsapp {
   width: 5em;
   height: 5em;
 }
@@ -69,7 +69,7 @@ html {
   font-size: 16px;
 }
 
-.controls .container .boton {
+.controls .container1 .boton {
   height: 10em;
   width: 10em;
   background: white;
