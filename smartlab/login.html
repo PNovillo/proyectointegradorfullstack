@@ -14,57 +14,61 @@
 </head>
 
 <body class=" w-100  d-flex justify-content-center align-items-center   ">
-  <div id="container-login" class=" h-75 bg-light d-flex flex-column justify-content-center m-5 p-3 rounded">
-    <div class="d-flex justify-content-center">
-      <img class="img-fluid d-block mx-auto" src="/smartlab/assets/smart.jpg" alt="img-login"
-        style="width:200px ; height: 100px;">
-    </div>
-    <div class="d-flex justify-content-center fs-3">Iniciar sesión</div>
-    <div>
+  <main>
+
+    <div id="container-login" class=" h-75 bg-light d-flex flex-column justify-content-center m-5 p-3 rounded">
+      <div class="d-flex justify-content-center">
+        <img class="img-fluid d-block mx-auto" src="/smartlab/assets/smart.jpg" alt="img-login"
+          style="width:200px ; height: 100px;">
+      </div>
+      <div class="d-flex justify-content-center fs-3">Iniciar sesión</div>
       <div>
-        <img class="img-fluid d-block mx-auto" src="/smartlab/assets/username-icon.svg" alt="img-username"
+        <div>
+          <img class="img-fluid d-block mx-auto" src="/smartlab/assets/username-icon.svg" alt="img-username"
+            style="width:20px ; height: 20px; ">
+        </div>
+
+        <input id="usuario" type="email" class="form-control p-2 m-1 " placeholder="Usuario" aria-label="Username">
+      </div>
+      <div>
+        <img class="img-fluid d-block mx-auto" src="/smartlab/assets/password-icon.svg" alt="img-username"
           style="width:20px ; height: 20px; ">
       </div>
 
-      <input id="usuario" type="email" class="form-control p-2 m-1 " placeholder="Usuario" aria-label="Username">
-    </div>
-    <div>
-      <img class="img-fluid d-block mx-auto" src="/smartlab/assets/password-icon.svg" alt="img-username"
-        style="width:20px ; height: 20px; ">
-    </div>
+      <input id="contraseña" type="password" class="form-control p-2 m-1" placeholder="Contraseña"
+        aria-label="Username">
 
-    <input id="contraseña" type="password" class="form-control p-2 m-1" placeholder="Contraseña" aria-label="Username">
+      <div class="form-check w-25 mt-1 w-100 mx-2 ">
+        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Recordar
+        </label>
+      </div>
+      <div class="d-grid gap-2">
+        <button type="button" onclick="guardarLocalStorage()" class="btn btn-primary p-1 m-1">Iniciar Sesión</button>
+      </div>
 
-    <div class="form-check w-25 mt-1 w-100 mx-2 ">
-      <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
-        Recordar
-      </label>
-    </div>
-    <div class="d-grid gap-2">
-      <button type="button" onclick="guardarLocalStorage()" class="btn btn-primary p-1 m-1">Iniciar Sesión</button>
-    </div>
+      <div class="p-2 d-flex justify-content-center align-items-center ">
+        <a href="/registrar.html">Crear cuenta</a>
+      </div>
 
-    <div class="p-2 d-flex justify-content-center align-items-center ">
-      <a href="/registrar.html">Crear cuenta</a>
-    </div>
+      <div class="p-2 d-flex justify-content-center align-items-center ">
+        <a href="">¿Olvidaste tu contraseña?</a>
+      </div>
 
-    <div class="p-2 d-flex justify-content-center align-items-center ">
-      <a href="">¿Olvidaste tu contraseña?</a>
+
     </div>
 
 
-  </div>
 
 
 
 
 
+    </div>
 
 
-  </div>
-
-
+  </main>
 
 
   <script src="/login.js"></script>
