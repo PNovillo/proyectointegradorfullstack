@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: aquamarine;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-block-end: 50px;
+  background-color: white;
+  font-family: "calibri";
+  border-radius: 30px;
+}
+
+.img {
+  width: 5em;
+  height: 5em;
+}
+
+.container h1 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.control {
+  width: 4%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #48c4b2;
+  font-family: "calibri";
+  font-size: 18px;
+}
+
+.controls {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #48c4b2;
+  font-family: "calibri";
+  font-size: 18px;
+}
+
+.selectm {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #48c4b2;
+  font-family: "calibri";
+  font-size: 16px;
+}
+
+.controls .container .boton {
+  height: 10em;
+  width: 10em;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-family:"calibri"
+}
+
+.container1 {
+  margin: 3%;
+  text-align: center;
+}
+
+.imglab {
+  height: 15em;
+  width: 15em;
+}
+
+.form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+}
