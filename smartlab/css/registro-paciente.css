@@ -16,22 +16,21 @@ body {
 .container{
  width: 800px;
   padding: 30px;
-  margin-top: 700px;
-  margin-bottom: 50px;
+  margin-top: 60px;
   background-color: white;
   font-family: "calibri";
   border-radius: 30px;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 600px) {
   .container {
     width: 95%;
-    margin-top: 900px;
   }
 }
 
+
 img{
-  width:300px ; 
-  height: 150px;
+  width:400px ; 
+  height: 200px;
 }
 
 .container h1 {
