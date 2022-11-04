@@ -16,10 +16,10 @@ body {
 .container{
  width: 800px;
   padding: 30px;
-  margin-top: 60px;
   background-color: white;
   font-family: "calibri";
-  border-radius: 30px;
+  border-radius: 80px;
+  border: 40px solid aquamarine;
 }
 @media only screen and (max-width: 600px) {
   .container {
