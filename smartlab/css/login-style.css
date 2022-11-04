@@ -8,6 +8,7 @@
 body {
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
   background: linear-gradient(
     45deg,
     hsl(240deg 100% 20%) 0%,
@@ -17,6 +18,9 @@ body {
     hsl(216deg 94% 69%) 80%,
     hsl(271deg 100% 50%) 100%
   );
+=======
+  background-color: aquamarine;
+>>>>>>> main
   font-family: "lato", sans-serif;
   font-weight: 300;
 }
