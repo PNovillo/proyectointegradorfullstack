@@ -111,3 +111,11 @@ input {
 textarea {
   width: 100%;
 }
+
+body {
+  background-color: aquamarine;
+}
+
+.navbar-color {
+  background-color: white;
+}
