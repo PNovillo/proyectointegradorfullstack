@@ -111,10 +111,3 @@ input {
 textarea {
   width: 100%;
 }
-
-@media (max-width: 575.98px) {
-  nav { 
-        flex-direction: column;  /*responsive*/
-        
- }
-}
