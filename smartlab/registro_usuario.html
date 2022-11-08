@@ -15,7 +15,7 @@
         
 <div class="col-sm-12 col-md-12 col-lg-12">
     
-    <form action="" method="post" >
+    <form class="needs-validation " novalidate>
         <img class="img-fluid d-block mx-auto" src="assets/logo-sin-fondo.png" alt="img-logo">
     
         
@@ -25,46 +25,124 @@
     <div class="container"> 
         <h4 class="display-7 text-black text-center" >SOLICITUD DE REGISTRO </h4>
         
-
+    <div class="position-relative">
         <label for="nombre"> Nombre: </label> 
-        <input type="text" name="nombre" id="nombre" class="controls "> 
-           
+        <input type="text" name="nombre" id="nombre" class="controls " required> 
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Nombre requerido
+        </div>
+    </div> 
          
- 
+    <div class="position-relative">
         <label for="apellido">Apellido:</label> <br>    
-        <input type="text" name="apellido" id="apellido" class="controls">
-     
+        <input type="text" name="apellido" id="apellido" class="controls" required>
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Apellido requerido
+        </div>
+    </div> 
         
-   
+   <div class="position-relative">
         <label for="number">Dni:</label>
-        <input id="number" type="number" class="controls"><br>
-    
+        <input id="number" type="number" class="controls" required>
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Dni requerido
+        </div>
+   </div>
 
-    
+    <div class="position-relative">
         <label for="nacimiento">Fecha de nacimiento:</label>      
-        <input type="date" name="nacimiento" id="nacimiento" class="controls">  
-      
+        <input type="date" name="nacimiento" id="nacimiento" class="controls" required>  
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Fecha de nacimiento requerido
+        </div>
+    </div>  
      
-     
+    <div class="position-relative">
         <label for="email">Correo electronico:</label>     
-        <input type="email" name="email" id="email" class="controls"> 
-    
-        <label for="celular">Celular de contacto:</label>
-        <input id="number" type="number" class="controls"  >
-        
-        <label class="form-row">Contraseña</label>
-        <input class="controls" type="password" name="password" id="password">
+        <input type="email" name="email" id="email" class="controls" required> 
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Correo electronico requerido
+        </div>
+    </div> 
 
+    <div class="position-relative">
+        <label for="celular">Celular de contacto:</label>
+        <input id="number" type="number" class="controls" required >
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Celular requerido
+        </div>
+    </div>
+    
+    <div class="position-relative">
+        <label class="form-row">Contraseña</label>
+        <input class="controls" type="password" name="password" id="password" required>
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Ingrese contraseña
+        </div>
+    </div>
+
+    <div class="position-relative">
         <label class="form-row">Confirmar contraseña</label>
-        <input class="controls" type="password" name="password" id="password">
-      
+        <input class="controls" type="password" name="password" id="password" required>
+        <div class="valid-tooltip">
+            Correcto
+        </div>
+        <div class="invalid-tooltip">
+            Confirmar contraseña
+        </div>
+    </div>  
 
     <button type="submit" class="btn btn-outline-primary btn-block" >Enviar</button>
        <a href="" class=" btn btn-outline-danger my-2 my-sm-0">Limpiar</a>
+       <div class=" d-flex justify-content-center ">
+        <a href="dashboard.html">Volver</a>
+      </div>
     </div> 
     </form>
 </div>
 </div>
-
+<script>
+    //javascript validacion de formularios 
+  (function () {
+      'use strict'
+    
+      
+      var forms = document.querySelectorAll('.needs-validation')
+    
+      
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
 </body>
 </html>
