@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smartlab</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/ccsJose.css">
+  
 </head>
 
 <body>
@@ -14,8 +17,8 @@
   <div class="container">
     <img class="img" src="/assets/Logosinfondo.png" alt="">
     <h1>Registro de turno</h1>
-    <form class="form-registrer" action="https://formsubmit.co/smartlab.gitgoodteam@gmail.com" method="POST">
-
+    <form class="form-registrer" action="https://formsubmit.co/smartlab.gitgoodteam@gmail.com" method="POST"></form>
+      
       <h3>Turno</h3>
       <label for="dni">DNI:</label>
       <input class="controls" type="text" name="DNI" placeholder="Escribe el DNI" id="dni" maxlength="8" required>
@@ -192,7 +195,7 @@
         <option value="Proteinuria 24 hs-L138">Proteinuria 24 hs-L138</option>
         <option value="Albuminuria 24 hs-L139">Albuminuria 24 hs-L139</option>
         <option value="Índice de filtrado glomerular estimado (IFGe) por fórmula MDRD 4-L140">Índice de filtrado
-          glomerular estimado (IFGe) por fórmula MDRD 4-L140</option>
+        glomerular estimado (IFGe) por fórmula MDRD 4-L140</option>
         <option value="Test rápido VIH-L141">Test rápido VIH-L141</option>
         <option value="Test rápido sífilis-L142">Test rápido sífilis-L142</option>
         <option value="Test rápido para virus B-L143">Test rápido para virus B-L143</option>
@@ -202,10 +205,13 @@
         <option value="Hepatitis B anticore total-L148">Hepatitis B anticore total-L148</option>
       </select>
       <br><br>
-      <input class="botons" type="submit">
+      <input class="botons" type="submit" onclick="Mensaje()">
       <input class="botons" type="reset">
     </form>
-  </div>
+      
+    </div>
+<script scr="/smartlab/js/js/mensaje.js"></script>
+
 </body>
 
 </html>
