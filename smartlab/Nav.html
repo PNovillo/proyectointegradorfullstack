@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Smartlab</title>    <!--aca ponemos el titulo en la pestaña-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/StyleNav.css">
-  
-    
+    <link rel="stylesheet" href="css/style_nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dashboard.css">
   </head>
   <body> 
 
@@ -18,50 +19,138 @@
 
 </html>
 
-<div>
-<nav class="navbar navbar-light bg-light">
+<div class="navbar-color">
+<nav class="navbar navbar-expand-md">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="assets/Logosinfondo.png" alt="" width="230" height="230" class="d-inline-block align-text-top">
+        <img src="assets/logo-sin-fondo.png" alt="" width="300" height="150" class="d-inline-block align-text-top">
         
-        <li><a href="mapadelsitio.html">Mapa del sitio</a></li>    <!--aca debemos modicar con lo de cande, mel y belen--> 
+        <li><a href="mapa_del_sitio.html">Mapa del sitio</a></li>    <!--aca debemos modicar con lo de cande, juan y martin e.--> 
         <li><a href="insumos.html">Insumos</a></li> 
-        <li><a href="ayudatecnica.html">Asitencia tecnica</a></li>  
+        <li><a href="asistencia-tecnica.html">Asistencia tecnica</a></li>  
+     
+
     
 
           <form class="d-flex" role="search">                      <!--aca ponemos el boton de ingreso de otra manera y cambiamos con lo que haga belen-->
-          <button class="btn btn-outline-success" type="submit">LOGIN</button>
+            <a href="login.html" button class="btn btn-outline-success" type="submit">LOGIN</button>
           </form>
       </a>
     </div>
     
   </nav>
   
+</div>
+<!-- Comienza dashboard-->
 
-<!-- se inserta el Carousel -->
+<div class="body">
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <a href="registro-paciente.html" class="btn btn-info">Registro Pacientes</a>
+    <!--El siguiente botón simula la conexión a la consulta de pacientes, ya que aún no se vincula a la base de datos-->
+    <a href="https://mail.google.com" class="btn btn-info">Consulta Pacientes</a>
+    <a href="form_turno.html" class="btn btn-info">Registro de Turno</a>
+    <!--Por el momento, el botón cerrar sesión devuelve al index. Esto a fin de simular un deslogueo, en el futuro se implementrá la desconexión de la base de datos y un alerta eN JS-->
+    <a href="index.html" class="btn btn-info">Cerrar Sesion</a>
+  </div>
+</div>
+<!-- Fin dashboard-->
+<footer>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Medios sociales -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- mensaje de izquierda -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Conectate con SmartLab:</span>
+    </div>
+    </section>
+
+  <!-- Texto de la izquierda de Smartlab  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>SmartLab
+          </h6>
+          <p>
+            Somos un laboratorio que te acompaña en cada paso de tu vida. 
+            Somos los profesionales que necesitabas. 
+          </p>
+        </div>
+        <!--Columna de productos-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <!-- VER LA FORMA DE HACER LA VINCULACION CON LA NAV-->
+          <p>
+            <a href="mapa_del_sitio.html" class="text-reset">Mapa de sitio</a>
+        
+          </p>
+          <p>
+            <a href="insumos.html" class="text-reset">Insumos</a>
+          </p>
+          <p>
+            <a href="asistencia-tecnica.html" class="text-reset">Asistencia tecnica</a>
+          </p>
+        </div>
+        <!-- columna-->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3"></i> Cordoba Capital</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            SmartLab@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>  351 567 88</p>
+          <p><i class="fas fa-print me-3"></i>  351 567 89</p>
+        </div>
+        <!-- Columna de cuadrícula -->
+      </div>
+      <!-- Fila de cuadrícula -->
+    </div>
+  </section>
+  <!-- ultima seccion/ Copyright   -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GitGoodTeam.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Cierro Footer -->
+</footer>
+
+
+<!-- se inserta el Carousel ...Voy a comentarlo
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
+-->
+  <!-- Indicators/dots 
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
-
-  <!-- The slideshow/carousel -->
+-->
+  <!-- The slideshow/carousel 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/carrusel 2.jpeg" alt="Laboratorio1" class="d-block w-100">
+      <img src="assets/carrusel_2.jpeg" alt="Laboratorio1" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/carrusel 1.jpeg" alt="Laboratorio2" class="d-block w-100">
+      <img src="assets/carrusel_1.jpeg" alt="Laboratorio2" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/carrusel 3.jpeg" alt="Laboratorio3" class="d-block w-100">
+      <img src="assets/carrusel_3.jpeg" alt="Laboratorio3" class="d-block w-100">
     </div>
   </div>
-
-  <!-- Left and right controls/icons -->
+-->
+  <!-- Left and right controls/icons 
   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
@@ -70,3 +159,4 @@
   </button>
 </div>
 
+-->

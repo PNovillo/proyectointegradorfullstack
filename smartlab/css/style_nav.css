@@ -12,12 +12,20 @@ nav a {
     text-transform: uppercase;    
     color: #1e14a7;                     
     font-weight: bold;
+    min-height: 40px;    /*Nueva modificación*/
     font-size: 20px;     /*aca modificas el tamaño de las letras de la nav*/
     text-decoration: none;
     font-family: "Calibri";
+    
+
    }
- 
- 
+   
+   @media (max-width: 575.98px) {
+    nav { 
+          flex-direction: column;  /*responsive*/
+          
+   }
+  }
 /*se agrega a partir de aqui lo que proporciono la desarrolladora Mel*/
 
 * {
@@ -29,3 +37,6 @@ nav a {
     background-color: aquamarine;
   }
   
+  .navbar-color {
+    background-color: white;
+  }

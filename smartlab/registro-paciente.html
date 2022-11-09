@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro de Pacientes</title>
-  <link rel="stylesheet" href="/smartlab/css/registro-paciente.css">
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/registro-paciente.css">
 </head>
 
 <body>
 
   <div class="container">
-    <img class="img" src="/Smartlab/assets/Logosinfondo.png" alt="">
-    <h1>Registro de pacientes</h1>
+
     <form class="form-registrer" action="https://formsubmit.co/smartlab.gitgoodteam@gmail.com" method="POST">
+      <img class="img-fluid d-block mx-auto" src="assets/logo-sin-fondo.png" alt="img-logo">
       <h3>Datos del paciente</h3>
       <label for="name">Nombre Completo:</label>
       <input class="controls" type="text" name="Nombre Completo" placeholder="Como figura en documento" id="name"
         required>
       <label for="dni">DNI:</label>
-      <input class="controls" type="text" name="DNI" placeholder="Escribe el DNI" id="dni" maxlength="8" required>
+      <input class="controls" type="number" name="DNI" placeholder="Escribe el DNI" id="dni" maxlength="8" required>
       <br>
       <label for="edad">Edad:</label>
       <input class="controls" type="number" name="Edad" placeholder="Escribe la edad" id="edad" required>
@@ -31,7 +34,7 @@
       <label for="radio-m">Masculino</label>
       <br>
       <label for="cel">Celular:</label>
-      <input class="controls" type="tel" name="Celular" id="cel" placeholder="Sin 0 y sin 15 ej:3513800000" required>
+      <input class="controls" type="number" name="Celular" id="cel" placeholder="Sin 0 y sin 15 ej:3513800000" required>
       <label for="email">Email:</label>
       <input class="controls" type="email" name="E-mail" id="email" placeholder="example@mail.com">
       <br>
@@ -52,7 +55,14 @@
       <input class="botons" type="submit">
       <input class="botons" type="reset">
     </form>
+    <div class=" d-flex justify-content-center ">
+      <a href="dashboard.html">Volver</a>
+    </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
