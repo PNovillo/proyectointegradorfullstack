@@ -8,15 +8,9 @@
 body {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-    45deg,
-    hsl(240deg 100% 20%) 0%,
-    hsl(184deg 100% 34%) 20%,
-    hsl(178deg 100% 45%) 40%,
-    hsl(185deg 90% 60%) 60%,
-    hsl(216deg 94% 69%) 80%,
-    hsl(271deg 100% 50%) 100%
-  );
+
+  background-color: aquamarine;
+
   font-family: "lato", sans-serif;
   font-weight: 300;
 }
