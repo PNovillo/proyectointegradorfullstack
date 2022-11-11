@@ -48,6 +48,10 @@ img{
   font-size: 20px;
   margin-bottom: 20px;
 }
+legend{
+    font-family: "calibri";
+  font-size: 18px;
+}
 
 .control {
   width: 4%;
