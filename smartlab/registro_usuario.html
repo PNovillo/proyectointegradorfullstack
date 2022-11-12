@@ -27,7 +27,7 @@
         
     <div class="position-relative">
         <label for="nombre"> Nombre: </label> 
-        <input type="text" name="nombre" id="nombre" class="controls " required> 
+        <input type="text" name="nombre" id="nombre" class="controls " minlength="3" maxlength="100"  required> 
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -38,7 +38,7 @@
          
     <div class="position-relative">
         <label for="apellido">Apellido:</label> <br>    
-        <input type="text" name="apellido" id="apellido" class="controls" required>
+        <input type="text" name="apellido" id="apellido" class="controls" minlength="3" maxlength="100" required>
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -49,7 +49,7 @@
         
    <div class="position-relative">
         <label for="number">Dni:</label>
-        <input id="number" type="number" class="controls" required>
+        <input id="number" type="number" class="controls" minlength="3" maxlength="100" required>
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -60,7 +60,7 @@
 
     <div class="position-relative">
         <label for="nacimiento">Fecha de nacimiento:</label>      
-        <input type="date" name="nacimiento" id="nacimiento" class="controls" required>  
+        <input type="date" name="nacimiento" id="nacimiento" class="controls"  required>  
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -71,7 +71,7 @@
      
     <div class="position-relative">
         <label for="email">Correo electronico:</label>     
-        <input type="email" name="email" id="email" class="controls" required> 
+        <input type="email" name="email" id="email" class="controls" minlength="3" maxlength="100" required> 
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -82,7 +82,7 @@
 
     <div class="position-relative">
         <label for="celular">Celular de contacto:</label>
-        <input id="number" type="number" class="controls" required >
+        <input id="number" type="number" class="controls" minlength="3" maxlength="100"required >
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -93,7 +93,7 @@
     
     <div class="position-relative">
         <label class="form-row">Contraseña</label>
-        <input class="controls" type="password" name="password" id="password" required>
+        <input class="controls" type="password" name="password" id="password" minlength="3" maxlength="100" required>
         <div class="valid-tooltip">
             Correcto
         </div>
@@ -104,7 +104,7 @@
 
     <div class="position-relative">
         <label class="form-row">Confirmar contraseña</label>
-        <input class="controls" type="password" name="password" id="password" required>
+        <input class="controls" type="password" name="password" id="password" minlength="3" maxlength="100" required>
         <div class="valid-tooltip">
             Correcto
         </div>
