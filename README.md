@@ -1,8 +1,8 @@
 # proyectointegradorfullstack
 
 Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL STACK.
+[SmartLab - Exposición Grupal](https://youtu.be/1qt5yxmOlug)
 
-[Presentación proyecto Integrador: SmartLab](https://youtu.be/oshYtqiopCE)
 
 ## Integrantes
 
