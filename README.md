@@ -10,7 +10,7 @@ Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL S
 - AULA 9 - [Candela Iara NEIL.](https://github.com/candelaiaraneil) - caianeil27@gmail.com
 - AULA 14 - [Melisa Janet GARAY.](https://github.com/MelGaray04) - melgaray04@gmail.com
 - AULA 5 - [María Belén CACCIAMANI.](https://github.com/Belucacciamani) - cacciamanibelen@gmail.com
-- AULA 3 - [Angel Martin SÁNCHEZ.](https://github.com/angelsmart86) - angelsmart86@gmail.com
+- AULA 3 - [Angel Martin SANCHEZ.](https://github.com/angelsmart86) - angelsmart86@gmail.com
 - AULA 14 - [Juan Carlos OJEDA.](https://github.com/Ojedajuan) - taraguipora2005@gmail.com
 - AULA 9 - [José Fernando ZARAGOZA.](https://github.com/JoseZaragoza7) - pp7cdm@gmail.com
 - AULA 13 - [Martín Sebastían ENRIQUEZ.](https://github.com/MartinDeMarc) - martin.enriquez.seb@gmail.com
