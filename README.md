@@ -2,6 +2,8 @@
 
 Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL STACK.
 
+[Presentación proyecto Integrador: SmartLab](https://youtu.be/oshYtqiopCE)
+
 ## Integrantes
 
 - AULA 9 - [Yenhy Jennifer Carolina NARDI.](https://github.com/nardiyenhy02) - nardijennifer95@gmail.com
