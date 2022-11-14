@@ -1,6 +1,6 @@
 # proyectointegradorfullstack
 
-Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL STACK.
+Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL STACK.<br /> __
 [SmartLab - Exposición Grupal](http://gitgoodteam.com/wp-content/uploads/2022/11/Presentacion-SmartLab.mp4)
 
 
