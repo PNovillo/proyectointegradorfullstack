@@ -3,6 +3,7 @@
 Repositorio del equipo de trabajo del segundo cuatrimestre para el modulo FULL STACK.<br />
 [SmartLab - Exposición Grupal](http://gitgoodteam.com/wp-content/uploads/2022/11/Presentacion-SmartLab.mp4)
 
+https://smartlab-seven.vercel.app/ (En proceso de ajuste - el servicio no interpreta correctametne modelo MVC)
 
 ## Integrantes
 
